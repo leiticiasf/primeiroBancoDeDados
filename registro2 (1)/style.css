@@ -1,0 +1,91 @@
+body{
+    background-image: url("azul.png");
+    width: 100vw;
+    height: 100vh;
+}
+
+h3{
+    color: rgb(170, 229, 233);
+    font-family: 'Noto Sans Linear B';
+}
+h1{
+    color: rgb(255, 255, 255);
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+input{
+    width: 200px;
+    height: 20px;
+    border-radius: 3px;
+    text-align: center;
+    font-size:normal;
+    
+}
+
+button{
+    width: 90px;
+    height: 35px;
+    cursor: pointer;
+}
+
+.container{
+    size-adjust: 500px;
+    text-align: center;
+    border: solid;
+    width: 390px;
+    border: 0px;
+    box-shadow: 20px 5px 10px rgba(80, 89, 138, 0.397); 
+    display:flex; 
+    flex-direction: column;
+    margin-left: 300px;
+    margin-top: 100px;
+}
+#baleia{
+    position: absolute;
+    top: 300px;
+    right: 400px;
+}
+#lel{
+    width: 90px;
+    height: 90px;
+    top: 300px;
+}
+
+  /* Modal Content/Box */
+  .conteudo {
+  width: 340px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #08235C;
+  color: #000;
+  text-align: center;
+  border-radius: 20px;
+  padding: 30px 30px 70px;
+  }
+  
+  /* The Close Button */
+  .close {
+    width: 50px;
+    font-size: 20px;
+    color: #c0c5cb;
+    align-self: flex-end;
+    background-color: transparent;
+    border: none;
+    margin-bottom: 10px;
+  }
+  
+
+
+  #reg{
+    background-color: #052c81;
+    border-radius: 5px;
+    width: 100px;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    box-shadow: 0px 6px 18px -5px rgb(5, 13, 31);
+  }

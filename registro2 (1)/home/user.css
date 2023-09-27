@@ -1,0 +1,10 @@
+body{
+  background-image: url("bal.jpg");
+}
+
+h1{
+
+    font-size: 72px;
+    color: rgb(28, 110, 182);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
